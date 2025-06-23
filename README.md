@@ -1,25 +1,34 @@
 
-# Spotify Top Songs Analysis (2010-2019)
+# Housing Prices Analysis
 
-This project analyzes the *Top Spotify Songs from 2010 to 2019* dataset to explore trends in audio features and predict song popularity using various regression models.
+This project analyzes the **Housing Prices Dataset** from Kaggle to explore the relationships between housing features and sale price, and to build predictive models that estimate home prices based on various attributes.
 
-The dataset includes information such as song title, artist, year, and multiple audio attributes like danceability, energy, loudness, and more. The goal is to perform comprehensive exploratory data analysis, build and compare linear, polynomial, and ridge regression models to predict song popularity, and tune hyperparameters to improve model performance.
+The dataset includes variables such as the number of bedrooms, bathrooms, square footage, stories, parking availability, and more. The goal is to conduct comprehensive exploratory data analysis (EDA), model the data using linear, polynomial, and ridge regression techniques, and improve model performance through hyperparameter tuning. Generative AI tools were used throughout the project to support analysis, code generation, and insight documentation.
+
+---
 
 ## Dataset
 
 The dataset is publicly available on Kaggle and can be found here:  
-[Top Spotify Songs from 2010-2019 by Year](https://www.kaggle.com/datasets/leonardopena/top-spotify-songs-from-20102019-by-year)
+[Housing Prices Dataset – Kaggle](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)
+
+---
 
 ## Project Structure
 
-- `data.csv`: Original dataset used for analysis  
-- `analysis.ipynb`: Jupyter Notebook containing the data cleaning, EDA, modeling, and results  
-- `chat.txt`: Documentation of all generative AI interactions during the project  
+- `Housing.csv`: Original dataset used for analysis  
+- `analysis.ipynb`: Jupyter Notebook containing data cleaning, EDA, modeling, and insights  
+- `chat.txt`: Log of all interactions with generative AI used to support the project  
+
+---
 
 ## Overview
 
 - Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (visualizations and insights)  
-- Modeling with Linear, Polynomial, and Ridge Regression  
-- Hyperparameter Tuning via GridSearchCV  
-- Integration and documentation of generative AI support  
+- Exploratory Data Analysis (with visualizations and interpretations)  
+- Correlation Analysis to identify key numeric predictors  
+- Regression Modeling (Linear, Polynomial, Ridge)  
+- Hyperparameter Tuning using GridSearchCV  
+- Final insights and model performance evaluation  
+- Documentation of AI support
+
